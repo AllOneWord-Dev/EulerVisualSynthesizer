@@ -14,7 +14,7 @@ The macOS app is used to design custom presets and banks - which can be shared w
 
 ## iOS UI Overview
 
-![iOS UI](https://raw.githubusercontent.com/AllOneWord-Dev/EulerVisualSynth-QA/main/docs/iOS-UI-Overview.png)
+![iOS UI](https://raw.githubusercontent.com/AllOneWord-Dev/EulerVisualSynthesizer/main/docs/iOS-UI-Overview.png)
 
 *Note: The main screen including UI Overlay only supports lanscape orientation for mobile. For iPad, both orientations are supported.*
 

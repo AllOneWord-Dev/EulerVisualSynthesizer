@@ -20,27 +20,26 @@ The macOS app is used to design custom presets and banks - which can be shared w
 
 ## Test Plan
 
-####Launch App
+**Launch App**
 
 * Verify last played preset in last chosen bank is playing
 * Verify UI overlay can be displayed by single tap on screen
 * Verify UI overlay times out after 5s of no interactivity
 * Verify layout of UI overlay matches UI Overview image
 
-####Transport Controls
+**Transport Controls**
 
 * Verify Rewind button changes presets
 * Verify Forward button changes presets
 * Verify play/pause button toggles play/pause state and icon updates appropriately
 
-####Playback Mode Controls
+**Playback Mode Controls**
 
 * Verify when no shuffle mode is selected, the currently playing presets continues playing until user manually changes presets.
 * Verify sequential mode: Choose the Sequential mode button. Choose a duration, and verify that presets of the current bank are played sequentially for that duration
 * Verify shuffle mode (random): Choose the Shuffle mode button. Choose a duration and verify that presets of the current bank are played in a random order
 
-####Tempo Controls
-
+**Tempo Controls**
 
 
 * Verify tapping on the Tempo Source button brings up a chooser menu and you can choose between Global, Preset, and Bank as the source of the Tempo.
@@ -52,7 +51,7 @@ The macOS app is used to design custom presets and banks - which can be shared w
 * *Not all presets in EVS Showcase are synchronized to tempo. However, presets in the Townsend '94 and King St. Garage banks should be synchronized to tempo.*
 
 
-####Interactivity
+**Interactivity**
 
 * Click on the pan icon to enter interactivity mode. 
 * Verify interactivity mode does not automatically time out (it must be manually closed using X (close) button)
@@ -62,7 +61,7 @@ The macOS app is used to design custom presets and banks - which can be shared w
 * Two Finger Pan is automatically assigned to 3D orbit of preset. (Really only useful for presets that designed as a 3D shape).
 * Verify interactivity mode can be closed by taping the X (close) button
 
-####Main Menu - Library
+**Main Menu - Library**
 
 * If you have not added either of the in-app purchase banks, verify the only bank shown is the included "EVS Showcase" bank.
 * After purchasing Townsend '94 and King St. Garage, verify those banks are also displayed in the Library collection.
@@ -72,7 +71,7 @@ The macOS app is used to design custom presets and banks - which can be shared w
 
 **Note: TestFlight users are NOT charged when making in-app purchase transactions. A sandbox user is automatically created for each TestFlight user and that sandbox user is used for all in-app purchases.**
 
-####Main Menu - Cloud
+**Main Menu - Cloud**
 
 There are 3 possible Rows that can be displayed when choosing the Cloud page.
 
@@ -81,7 +80,7 @@ There are 3 possible Rows that can be displayed when choosing the Cloud page.
 * The last possible row displayed is the row of banks that you have downloaded to your device. Selecting Banks in this row, will move this bank from downloaded banks to banks in your iCloud. Note: Selecting a bank in this row, only deletes the bank from your local library on your iOS device. It does not delete the Bank from your iCloud account.
 
 
-####Main Menu - Settings
+**Main Menu - Settings**
 
 Playback Mode / Playback duration selections are available here as well as the main UI.
 
